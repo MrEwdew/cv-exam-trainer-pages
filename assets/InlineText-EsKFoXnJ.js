@@ -1,0 +1,1 @@
+import{t as e}from"./jsx-runtime-CY_jTiqj.js";var t=e();function n({text:e}){return(0,t.jsx)(t.Fragment,{children:e.split(/(`[^`]+`)/g).map((e,n)=>e.startsWith("`")&&e.endsWith("`")?(0,t.jsx)(`code`,{children:e.slice(1,-1)},`${e}-${n}`):e)})}export{n as t};
